@@ -48,7 +48,7 @@ func responseSize(url string) {
 }
 
 func main() {
-	// Add a count of three, one for each goroutine.
+	// Add a count of Two one for each goroutine.
 	wg.Add(2)
 	fmt.Println("Start Goroutine")
 
