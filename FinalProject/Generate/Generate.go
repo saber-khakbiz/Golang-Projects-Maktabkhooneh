@@ -7,6 +7,7 @@ import (
 	"log"
 )
 
+// YamlFile func Generate fmt yaml
 func YamlFile() {
 	peoples := Initiate()
 	data := []byte(fmt.Sprintf("---\r\n"))

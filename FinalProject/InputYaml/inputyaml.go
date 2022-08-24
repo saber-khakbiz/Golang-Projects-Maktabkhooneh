@@ -4,6 +4,7 @@ import (
 	. "Yaml-v1/Struct"
 )
 
+// Initiate Enter your data in {people} struct
 func Initiate() []*People {
 	Peoples := []*People{
 		{
